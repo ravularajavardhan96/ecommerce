@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/image2.png">
+    <title>Astro fashion</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital@0;1&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex justify-content-around align-items-center flex-column w-100">
+    <nav class="sticky-top navbar navbar-expand-lg text-danger  navbar-bg-light mt-0  p-0 ">
+        <div class="container-fluid w-100 d-flex justify-content-around align-items-center">
+            <a href="#" class="navbar-brand text-secondary-emphasis  fw-bold fs-1 ms-4 me-5"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-auto d-flex justify-content-around align-items-center  ms-5">
+                    <li class="nav-item text-light">
+                        <a href="#" class="active nav-link text-white  fs-3 fw-bold ms-4  text-opacity-75">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white fs-3  fw-bold ms-5  text-opacity-75">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white fs-3 fw-bold ms-5  text-opacity-75">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white fs-3  fw-bold ms-5  text-opacity-75" >Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light fs-3  fw-bold ms-5  text-opacity-75"> Add to cart</a>
+                    </li>
+                    
+                </ul>
+                <form  class="d-flex  " role="search">
+                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                   <div class="input-group w-75 ms-5 mb-2 mt-2">
+                    <input type="search" class="form-control " placeholder="Search" aria-label="Search">
+                   <button class="btn btn-dark   fs-5" type="submit">Search</button>
+                   </div>
+                   
+                </form>
+              </div>
+        </div>
+    </nav>
+    <div id="carouselExample" class="carousel slide mt-5 w-100">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/cor1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/cor2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/cor3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="line"> &nbsp</div>
+      <div class="card mb-3 mt-5 w-75 p-4">
+        <div class="row row-cols-1">
+          <div class="col-md-5 col-lg-4">
+            <img src="images/e4.png" class="img-fluid rounded-start w-100 mt-4" alt="...">
+          </div>
+          <div class="col-md-5 col-lg-4 ms-4 mt-3">
+            <div class="card-body">
+              <h3 class="card-title">Steal Deal</h3>
+              <p class="card-text">Get these amazing shoes at a very low cost. Very authentic shoe at cheap price at a very low cost. Very authentic shoe at cheap price at a very low cost. Very authentic shoe at cheap price</p>
+              <p class="card-text"><small class="text-body-secondary">107 purchases this week</small></p>
+            </div>
+           
+          </div>
+          <div class="btn card-btn row-cols-3 w-xs-100 col-sm-6 col-lg-2 btn-outline-dark h-25 button ms-md-5">Shop now</div> 
+        </div>
+      </div>
+
+      <h2 class="m-5">Primary Deals</h2>
+
+      <div id="category" class="container mt-4 d-flex justify-content-center align-items-center flex-column w-100">
+      <div class="row row-cols-1 gap-2 justify-content-around">
+        <div class="card col p-3 col-sm-9 col-md-5 col-xl-4  ">
+          <img src="images/mens-clothing.png" alt="" class="w-100">
+          <button class=" btn  btn-outline-dark bottom-0    mt-2 w-50 fs-4 fw-normal p-1 position-relative start-auto mt-3 ms-2">Shop Now</button>
+        </div>
+        <div class="card col p-3 col-sm-9 col-md-5 col-xl-4 row-cols-1  ">
+          <img src="images/womens_clothing.png" alt="" class="w-100">
+          <button class=" btn  btn-outline-dark bottom-0    mt-2 w-50 fs-4 fw-normal p-1 position-relative start-auto mt-3 ms-2">Explore More</button>
+        </div>
+        <div class="card col  p-3 col-xs-8 col-sm-9 col-md-5 col-xl-4 row-cols-1  mt-4">
+          <img src="images/kids-fashion.png" class="w-100">
+          <button class=" btn  btn-outline-dark  bottom-0   mt-2 w-50 fs-4  p-1 position-relative start-auto mt-3 ms-2">Explore more</button>
+        </div>
+      </div>
+
+      </div>
+      <div class="line"> &nbsp</div>
+
+     <h2 class="m-5">Accessory Hot Deals</h2>
+      <div class="top_deals container">
+       <div class="row g-2 row-cols-1  justify-content-around">
+        <div class="card col-xl-4 m-2 p-4" >
+          <img src="images/hand.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Authentic Hand Bags for Women</h5>
+            <p class="card-text mt-3 mb-3">Carry your world in style – trendy, spacious, and effortlessly chic!</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+        <div class="card col-xl-4 m-2  p-4">
+          <img src="images/watch.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Premium Watches</h5>
+            <p class="card-text mt-3 mb-3">Timeless elegance on your wrist – because every second counts in style!</p>
+            <a href="#" class="btn btn-primary">Buy now</a>
+          </div>
+        </div>
+        <div class="card col-xl-4 m-2  p-4" >
+          <img src="images/jew.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fashion Jewellery</h5>
+            <p class="card-text mt-3 mb-3">Sparkle every day – because you deserve a touch of luxury!</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+        <div class="card col-xl-4 m-2  p-4" >
+          <img src="images/foot.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mt-3 mb-3">Trendy Footwear</h5>
+            <p class="card-text">Step into comfort and style – because the right shoes take you places!</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+        
+        
+      </div>
+      <div class="line"> &nbsp</div>
+      <h2 class="m-5 text-center">Customer Reviews</h2>
+
+      <div id="reviewCarousel" class="carousel slide text-center" data-bs-ride="carousel">
+        <div class="carousel-item active mb-5">
+          <div class="d-flex justify-content-center flex-column">
+            <p class="lead">“Loved the quality! Perfect fit! ⭐⭐⭐⭐⭐”</p>
+            <h5>- Priya.</h5>
+          </div>
+        </div>
+        <div class="carousel-item  mb-5">
+          <div>
+            <p class="lead">“Amazing collection and fast delivery! ⭐⭐⭐⭐⭐”</p>
+            <h5>- Rahul.</h5>
+          </div>
+        </div>
+        <div class="carousel-item  mb-5">
+          <div>
+            <p class="lead">“Stylish and comfortable footwear! ⭐⭐⭐⭐⭐”</p>
+            <h5>- Ananya.</h5>
+          </div>
+        </div>
+      </div>
+      
+     <div class="mt-4 mb-5 " style="height: 5rem;"></div>
+     <div class="line"> &nbsp</div>
+     
+     <div class="container text-center mt-4 mb-4">
+      <!-- <h2>Newsletter section</h2> -->
+      <h2 class="mb-3">📩 Subscribe to Our Newsletter</h2>
+      <p class="mb-4 fs-4 mt-5">Stay updated with the latest fashion trends, exclusive deals, and new arrivals.</p>
+      <div class="row row-cols-12 justify-content-center">
+        <div class=" col-md-6 col-xl-4 mt-5 mb-5 text-center">
+          <form >
+            <!-- <div class="input-group "> -->
+              <input type="email" class="form-control w-75 " placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-dark w-25   mt-3 mb-5 ms-5 me--5">subscribe</button>
+            <!-- </div> -->
+          </form>
+        </div>
+      </div>
+      <p class="text-muted">we respect your privacy. Unsubscribe at any time.</p>
+     </div>
+
+     <div class="line"> &nbsp</div>
+
+     <!-- <div class="footer mt-5 bg-dark w-100 p-0 ms-0 me-0" style="height: 20rem;"></div> -->
+     <footer class=" container-fluid  bg-dark text-white text-center p-3">
+      &copy; 2025 Astro Fashion. All rights reserved.
+  </footer>
+  
+      
+
+      
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
