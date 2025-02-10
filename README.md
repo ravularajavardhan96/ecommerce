@@ -1,2 +1,2 @@
 # ecommerce
-The sample ecommerce website to improve my understanding about the bootstrap framework which is used to style and responsiveness of the website
+The sample ecommerce website to improve my understanding about the bootstrap framework which I used to style and add responsiveness to the website
