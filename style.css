@@ -6,7 +6,7 @@ body{
 }
 body, html { 
     max-width: 100%;
-    overflow-x: hidden; Prevents horizontal scrolling
+    overflow-x: hidden; 
 } 
 .card{
     background-color: rgb(233, 231, 233);
